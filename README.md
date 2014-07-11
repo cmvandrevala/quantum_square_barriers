@@ -9,7 +9,7 @@ This simulation calculates the transmission and reflection coefficients for a si
 
 Input
 -----
-The parameters for the simulation are listed in "lib/declare\_parameters.m".  All of the input parameters must be in SI units (joules, kilograms, and meters).  In order to make conversions easier, "eV" and "nm" have been definted.  Appending "\*eV" to a value will convert eV to joules.  Appending "\*nm" to a value will convert nanometers to meters.  For example:
+The parameters for the simulation are listed in "lib/declare\_parameters.m".  All of the input parameters must be in SI units (joules, kilograms, and meters).  In order to make conversions easier, "eV" and "nm" have been defined.  Appending "\*eV" to a value will convert eV to joules.  Appending "\*nm" to a value will convert nanometers to meters.  For example:
 
 * 10\*eV => (10)(1.60217657e-19) joules
 * 10\*nm => (10)(1e-9) meters
