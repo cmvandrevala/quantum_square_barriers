@@ -1,11 +1,15 @@
-hbar = 1.0545717e-34;
-speed_of_light = 3e8;
-mass = 9.11e-31;
-eV = 1.6e-19;
+% Universal Constants
+hbar = 1.05457173e-34;
+speed_of_light = 299792458;
+mass = 9.10938291e-31;
+eV = 1.60217657e-19;
+nm = 1e-9;
 
+% Energy Barrier Parameters
 barrier_height = 0.1*eV;
-barrier_width = 15e-9;
-number_of_data_points = 4000;
+barrier_width = 5*nm;
+number_of_barriers = 10;
 
-energy_step_size = 0.001*eV;
-number_of_barriers = 7;
+% Simulation Parameters
+max_kinetic_energy = 1*eV;
+number_of_data_points = 1000;
