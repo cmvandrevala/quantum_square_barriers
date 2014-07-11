@@ -1,5 +1,5 @@
-Quantum Square Well Simulation
-==============================
+Quantum Square Barriers
+=======================
 
 
 Background
